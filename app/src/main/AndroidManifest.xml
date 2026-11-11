@@ -2,7 +2,7 @@
 
     <!-- Permissions from the original APK are *not* required for the simplified
          implementation. Add any you actually need here. -->
-    <uses-sdk android:minSdkVersion="34" android:targetSdkVersion="37" />
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="35" />
 
     <application
         android:name=".MyApplication"
