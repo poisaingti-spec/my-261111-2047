@@ -1,41 +1,42 @@
 package com.crafted.my.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
-import androidx.compose.material3.*
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.ColorScheme
+import androidx.compose.material3.lightColorScheme
+import androidx.compose.material3.darkColorScheme
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.Color
 
 private val LightColors = lightColorScheme(
-    primary = md_theme_light_primary,
-    secondary = md_theme_light_secondary,
-    background = md_theme_light_background,
-    surface = md_theme_light_surface,
-    onPrimary = md_theme_light_onPrimary,
-    onSecondary = md_theme_light_onSecondary,
-    onBackground = md_theme_light_onBackground,
-    onSurface = md_theme_light_onSurface,
+    primary = Color(0xFF0061A4),
+    onPrimary = Color.White,
+    secondary = Color(0xFF03DAC6),
+    background = Color(0xFFF6F6F6),
+    surface = Color.White,
+    onBackground = Color.Black,
+    onSurface = Color.Black
 )
 
 private val DarkColors = darkColorScheme(
-    primary = md_theme_dark_primary,
-    secondary = md_theme_dark_secondary,
-    background = md_theme_dark_background,
-    surface = md_theme_dark_surface,
-    onPrimary = md_theme_dark_onPrimary,
-    onSecondary = md_theme_dark_onSecondary,
-    onBackground = md_theme_dark_onBackground,
-    onSurface = md_theme_dark_onSurface,
+    primary = Color(0xFF90CAF9),
+    onPrimary = Color.Black,
+    secondary = Color(0xFF03DAC6),
+    background = Color(0xFF121212),
+    surface = Color(0xFF1E1E1E),
+    onBackground = Color.White,
+    onSurface = Color.White
 )
 
 @Composable
 fun MyAppTheme(
-    useDarkTheme: Boolean = isSystemInDarkTheme(),
+    darkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable () -> Unit
 ) {
-    val colorScheme = if (useDarkTheme) DarkColors else LightColors
-
+    val colors: ColorScheme = if (darkTheme) DarkColors else LightColors
     MaterialTheme(
-        colorScheme = colorScheme,
-        typography = Typography,
+        colorScheme = colors,
+        typography = androidx.compose.material3.Typography(),
         content = content
     )
 }

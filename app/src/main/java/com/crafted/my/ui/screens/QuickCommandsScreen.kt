@@ -9,16 +9,15 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.crafted.my.R
 
-data class QuickCommand(val phrase: String, val description: String)
+data class QuickCommand(val name: String, val description: String)
 
 @Composable
 fun QuickCommandsScreen() {
-    // Dummy data – replace with real model if you integrate the original logic.
     val commands = remember {
         listOf(
-            QuickCommand("Hey my", "Launch the app with a voice command"),
-            QuickCommand("Open Settings", "Navigate to settings"),
-            QuickCommand("Show Weather", "Display weather forecast")
+            QuickCommand("Play Music", "Play your favorite music"),
+            QuickCommand("Turn On Lights", "Turn on the lights in your home"),
+            QuickCommand("Set Alarm", "Set an alarm for tomorrow morning")
         )
     }
 
@@ -34,16 +33,27 @@ fun QuickCommandsScreen() {
             verticalArrangement = Arrangement.spacedBy(8.dp),
             modifier = Modifier.fillMaxSize()
         ) {
-            items(commands) { cmd ->
+            items(commands) { command ->
                 Card(
                     modifier = Modifier
                         .fillMaxWidth()
                         .padding(horizontal = 16.dp),
-                    onClick = { /* TODO: invoke quick command */ }
+                    onClick = { /* TODO: execute command */ }
                 ) {
-                    Column(modifier = Modifier.padding(16.dp)) {
-                        Text(text = cmd.phrase, style = MaterialTheme.typography.titleMedium)
-                        Text(text = cmd.description, style = MaterialTheme.typography.bodyMedium)
+                    Column(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(16.dp)
+                    ) {
+                        Text(
+                            text = command.name,
+                            style = MaterialTheme.typography.titleMedium
+                        )
+                        Spacer(modifier = Modifier.height(4.dp))
+                        Text(
+                            text = command.description,
+                            style = MaterialTheme.typography.bodyMedium
+                        )
                     }
                 }
             }

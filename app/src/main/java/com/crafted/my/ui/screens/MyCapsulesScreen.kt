@@ -13,7 +13,6 @@ data class Capsule(val name: String, val description: String)
 
 @Composable
 fun MyCapsulesScreen() {
-    // Placeholder capsules – in a real implementation you would query the Bixby capsule DB.
     val capsules = remember {
         listOf(
             Capsule("Music", "Play music and control playback"),
@@ -41,9 +40,20 @@ fun MyCapsulesScreen() {
                         .padding(horizontal = 16.dp),
                     onClick = { /* TODO: open capsule detail */ }
                 ) {
-                    Column(modifier = Modifier.padding(16.dp)) {
-                        Text(text = capsule.name, style = MaterialTheme.typography.titleMedium)
-                        Text(text = capsule.description, style = MaterialTheme.typography.bodyMedium)
+                    Column(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(16.dp)
+                    ) {
+                        Text(
+                            text = capsule.name,
+                            style = MaterialTheme.typography.titleMedium
+                        )
+                        Spacer(modifier = Modifier.height(4.dp))
+                        Text(
+                            text = capsule.description,
+                            style = MaterialTheme.typography.bodyMedium
+                        )
                     }
                 }
             }

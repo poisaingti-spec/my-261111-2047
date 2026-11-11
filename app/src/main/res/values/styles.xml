@@ -1,7 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- Base application theme. -->
     <style name="Theme.MyApp" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Primary & secondary colors are defined in Compose; this keeps the XML theme happy -->
-        <item name="colorPrimary">@color/primary</item>
-        <item name="colorSecondary">@color/secondary</item>
+        <!-- Customize your theme here. -->
+        <item name="android:colorBackground">?attr/colorSurface</item>
     </style>
+
 </resources>

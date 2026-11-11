@@ -3,8 +3,14 @@ package com.crafted.my.ui.components
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.res.stringResource
 import com.crafted.my.R
 import com.crafted.my.navigation.NavDestination
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Home
+import androidx.compose.material.icons.filled.FlashOn
+import androidx.compose.material.icons.filled.Collections
+import androidx.compose.material.icons.filled.Settings
 
 @Composable
 fun BottomNavBar(
@@ -55,6 +61,6 @@ private fun BottomNavItem(
         selected = selected,
         onClick = { onClick(destination) },
         icon = { Icon(icon, contentDescription = null) },
-        label = { Text(text = stringResource(id = labelRes)) }
+        label = { Text(stringResource(id = labelRes)) }
     )
 }

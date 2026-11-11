@@ -1,15 +1,16 @@
 plugins {
-    id("com.android.application")
-    id("org.jetbrains.kotlin.android")
-    id("com.google.dagger.hilt.android")
+    id("com.android.application") version "9.5.1"
+    id("org.jetbrains.kotlin.android") version "2.0.20"
+    id("org.jetbrains.kotlin.kapt") version "2.0.20"
+    id("com.google.dagger.hilt.android") version "2.51.1"
 }
 
 android {
-    namespace = "com.crafted.myapp"
+    namespace = "com.crafted.my"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.crafted.myapp"
+        applicationId = "com.crafted.my"
         minSdk = 26
         targetSdk = 35
         versionCode = 1

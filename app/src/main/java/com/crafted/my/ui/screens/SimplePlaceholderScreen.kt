@@ -11,16 +11,21 @@ import androidx.compose.ui.unit.dp
 fun SimplePlaceholderScreen(title: String) {
     Scaffold(
         topBar = {
-            SmallTopAppBar(title = { Text(title) })
+            SmallTopAppBar(
+                title = { Text(title) }
+            )
         }
     ) { innerPadding ->
         Box(
-            contentAlignment = Alignment.Center,
             modifier = Modifier
                 .fillMaxSize()
-                .padding(innerPadding)
+                .padding(innerPadding),
+            contentAlignment = Alignment.Center
         ) {
-            Text(text = "Placeholder for $title screen", style = MaterialTheme.typography.bodyLarge)
+            Text(
+                text = "Placeholder for $title",
+                style = MaterialTheme.typography.bodyLarge
+            )
         }
     }
 }

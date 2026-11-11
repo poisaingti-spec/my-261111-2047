@@ -28,7 +28,6 @@ fun HomeScreen(onNavigate: (NavDestination) -> Unit) {
                 text = stringResource(id = R.string.assistant_home),
                 style = MaterialTheme.typography.headlineMedium
             )
-            // Sample placeholder card – in a real app this would be dynamic content from Bixby.
             Card(
                 modifier = Modifier
                     .fillMaxWidth()
@@ -63,7 +62,6 @@ fun HomeScreen(onNavigate: (NavDestination) -> Unit) {
                 }
             }
 
-            // Quick navigation shortcuts
             Divider()
             Text(
                 text = stringResource(id = R.string.title_quick_commands),

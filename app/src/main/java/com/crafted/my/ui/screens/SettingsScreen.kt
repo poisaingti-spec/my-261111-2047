@@ -9,8 +9,6 @@ import com.crafted.my.R
 
 @Composable
 fun SettingsScreen() {
-    var darkModeEnabled by remember { mutableStateOf(false) }
-
     Scaffold(
         topBar = {
             SmallTopAppBar(
@@ -22,30 +20,16 @@ fun SettingsScreen() {
             modifier = Modifier
                 .fillMaxSize()
                 .padding(innerPadding)
-                .padding(16.dp),
-            verticalArrangement = Arrangement.spacedBy(24.dp)
+                .padding(16.dp)
         ) {
             Text(
-                text = stringResource(id = R.string.settings_header),
-                style = MaterialTheme.typography.headlineSmall
+                text = "Settings",
+                style = MaterialTheme.typography.headlineMedium
             )
-            Row(
-                verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.SpaceBetween,
-                modifier = Modifier.fillMaxWidth()
-            ) {
-                Text(text = "Dark theme", style = MaterialTheme.typography.bodyLarge)
-                Switch(
-                    checked = darkModeEnabled,
-                    onCheckedChange = { darkModeEnabled = it }
-                )
-            }
-            // Add any other settings you desire (e.g., language, permissions, etc.)
-            Divider()
+            Spacer(modifier = Modifier.height(16.dp))
             Text(
-                text = "Version 1.0",
-                style = MaterialTheme.typography.bodySmall,
-                modifier = Modifier.align(Alignment.CenterHorizontally)
+                text = "This is the settings screen.",
+                style = MaterialTheme.typography.bodyLarge
             )
         }
     }

@@ -37,6 +37,5 @@ fun AppNavGraph(
         composable(NavDestination.Notice.route) {
             SimplePlaceholderScreen(title = "Notice")
         }
-        // Add more placeholder composables for any other activity you wish to expose.
     }
 }
