@@ -1,0 +1,7 @@
+mr,mister
+mrs,missus
+ms,mizz
+dr,doctor
+dj,dijei
+bj,bijei
+ok,okay

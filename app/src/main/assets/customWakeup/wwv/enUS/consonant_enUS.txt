@@ -1,0 +1,21 @@
+b,bee
+c,cee
+d,dee
+f,eff
+g,gee
+h,aitch
+j,jay
+k,kay
+l,ell
+m,emm
+n,enn
+p,pee
+q,cue
+r,arr
+s,ess
+t,tee
+v,vee
+w,double u
+x,ex
+y,wye
+z,zee

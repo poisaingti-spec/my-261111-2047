@@ -1,0 +1,89 @@
+{
+  "language": "it",
+  "entities": {
+    "Address": [
+      "indirizzo",
+      "indirizzo di consegna",
+      "indirizzo di spedizione"
+    ],
+    "Place": [
+      "nome del luogo",
+      "nome del ristorante",
+      "nome del negozio",
+      "nome dell'hotel"
+    ],
+    "StartingLocation": [
+      "punto di partenza",
+      "luogo di ritiro",
+      "origine"
+    ],
+    "Destination": [
+      "destinazione",
+      "indirizzo di arrivo",
+      "luogo di consegna"
+    ],
+    "AccountNumber": [
+      "numero di conto",
+      "numero cliente"
+    ],
+    "EmailAddress": [
+      "indirizzo email",
+      "email"
+    ],
+    "PassportNumber": [
+      "numero di passaporto"
+    ],
+    "DrivingLicenseNumber": [
+      "numero di patente",
+      "numero patente di guida"
+    ],
+    "BankAccountNumber": [
+      "numero di conto bancario",
+      "iban"
+    ],
+    "CardNumber": [
+      "numero di carta",
+      "numero di carta di credito"
+    ],
+    "OrderNumber": [
+      "numero d'ordine",
+      "numero di tracking",
+      "riferimento ordine"
+    ],
+    "PhoneNumber": [
+      "numero di telefono",
+      "numero di contatto"
+    ],
+    "UserID": [
+      "id utente",
+      "nome utente"
+    ],
+    "OTP": [
+      "codice otp",
+      "codice monouso",
+      "codice di verifica"
+    ],
+    "Code": [
+      "codice promo",
+      "codice di accesso",
+      "codice sconto"
+    ],
+    "Password": [
+      "password"
+    ],
+    "VehiclePlateNumber": [
+      "targa",
+      "numero di targa"
+    ],
+    "ReservationNumber": [
+      "numero di prenotazione",
+      "codice di conferma",
+      "volo",
+      "treno"
+    ],
+    "ResidentRegistrationNumber": [
+      "numero di identificazione",
+      "codice fiscale"
+    ]
+  }
+}

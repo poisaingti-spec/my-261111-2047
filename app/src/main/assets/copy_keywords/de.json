@@ -1,0 +1,111 @@
+{
+  "language": "de",
+  "entities": {
+    "Address": [
+      "adresse",
+      "lieferadresse",
+      "wohnadresse",
+      "zustelladresse"
+    ],
+    "Place": [
+      "ort",
+      "ortsname",
+      "restaurantname",
+      "geschäftsname",
+      "hotelname",
+      "veranstaltungsort"
+    ],
+    "StartingLocation": [
+      "abholort",
+      "startpunkt",
+      "ausgangspunkt",
+      "startadresse",
+      "abfahrtsort"
+    ],
+    "Destination": [
+      "zieladresse",
+      "zielort",
+      "zielpunkt",
+      "anlieferadresse",
+      "abgabeort"
+    ],
+    "AccountNumber": [
+      "kontonummer",
+      "kundenkonto",
+      "teilnehmernummer"
+    ],
+    "EmailAddress": [
+      "e-mail-adresse",
+      "mailadresse",
+      "email"
+    ],
+    "PassportNumber": [
+      "passnummer",
+      "reisepassnummer"
+    ],
+    "DrivingLicenseNumber": [
+      "führerscheinnummer",
+      "fahrerlaubnisnummer"
+    ],
+    "BankAccountNumber": [
+      "bankkontonummer",
+      "iban"
+    ],
+    "CardNumber": [
+      "kartennummer",
+      "kreditkartennummer",
+      "debitkartennummer"
+    ],
+    "OrderNumber": [
+      "bestellnummer",
+      "auftragsnummer",
+      "referenznummer",
+      "trackingnummer"
+    ],
+    "PhoneNumber": [
+      "telefonnummer",
+      "rufnummer",
+      "kontaktnummer",
+      "handynummer"
+    ],
+    "UserID": [
+      "benutzer-id",
+      "nutzername",
+      "loginname",
+      "kunden-id"
+    ],
+    "OTP": [
+      "otp",
+      "einmalcode",
+      "einmalpasswort",
+      "2fa-code"
+    ],
+    "Code": [
+      "zugangscode",
+      "promo-code",
+      "rabattcode",
+      "sicherheitscode"
+    ],
+    "Password": [
+      "passwort",
+      "kennwort"
+    ],
+    "VehiclePlateNumber": [
+      "kennzeichen",
+      "nummernschild",
+      "kfz-kennzeichen"
+    ],
+    "ReservationNumber": [
+      "reservierungsnummer",
+      "buchungsnummer",
+      "bestätigungscode",
+      "flug",
+      "zug"
+    ],
+    "ResidentRegistrationNumber": [
+      "personalausweisnummer",
+      "sozialversicherungsnummer",
+      "meldekennziffer"
+    ]
+  }
+}

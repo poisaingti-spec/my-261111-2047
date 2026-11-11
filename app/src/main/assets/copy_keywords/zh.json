@@ -1,0 +1,92 @@
+{
+  "language": "zh",
+  "entities": {
+    "Address": [
+      "地址",
+      "收货地址",
+      "送达地址"
+    ],
+    "Place": [
+      "地点名称",
+      "餐厅名称",
+      "商店名称",
+      "酒店名称"
+    ],
+    "StartingLocation": [
+      "起点",
+      "取货地点",
+      "出发点"
+    ],
+    "Destination": [
+      "目的地",
+      "送达地点",
+      "到达地址"
+    ],
+    "AccountNumber": [
+      "账户号码",
+      "客户编号"
+    ],
+    "EmailAddress": [
+      "邮箱地址",
+      "电子邮件"
+    ],
+    "PassportNumber": [
+      "护照号码"
+    ],
+    "DrivingLicenseNumber": [
+      "驾照号码"
+    ],
+    "BankAccountNumber": [
+      "银行账号",
+      "IBAN"
+    ],
+    "CardNumber": [
+      "卡号",
+      "信用卡号",
+      "借记卡号"
+    ],
+    "OrderNumber": [
+      "订单号",
+      "追踪号码",
+      "收据号"
+    ],
+    "PhoneNumber": [
+      "电话号码",
+      "联系电话",
+      "手机号"
+    ],
+    "UserID": [
+      "用户ID",
+      "用户名",
+      "登录名"
+    ],
+    "OTP": [
+      "OTP码",
+      "一次性密码",
+      "验证码"
+    ],
+    "Code": [
+      "优惠码",
+      "访问代码",
+      "折扣码"
+    ],
+    "Password": [
+      "密码"
+    ],
+    "VehiclePlateNumber": [
+      "车牌号",
+      "车辆号码"
+    ],
+    "ReservationNumber": [
+      "预订号",
+      "确认号",
+      "航班",
+      "列车"
+    ],
+    "ResidentRegistrationNumber": [
+      "身份证号",
+      "社保号码",
+      "注册号"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Permissions from the original APK are *not* required for the simplified
+         implementation. Add any you actually need here. -->
+    <uses-sdk android:minSdkVersion="34" android:targetSdkVersion="37" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:exported="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:theme="@style/Theme.MyApp">
+
+        <!-- Main entry point -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MyApp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Stub activities for every Activity that existed in the original app.
+             They simply host a Compose screen with a title. -->
+        <activity android:name=".ui.screens.AssistantHomeMainActivity" android:exported="false" />
+        <activity android:name=".ui.screens.AssistantHomeInfoActivity" android:exported="false" />
+        <activity android:name=".ui.screens.AssistantHomeAliasActivity" android:exported="false" />
+        <activity android:name=".ui.screens.NoticeActivity" android:exported="false" />
+        <activity android:name=".ui.screens.PreferredCapsuleActivity" android:exported="false" />
+        <activity android:name=".ui.screens.DeviceSpecificActivity" android:exported="false" />
+        <activity android:name=".ui.screens.ReportActivity" android:exported="false" />
+        <activity android:name=".ui.screens.MyCapsulesActivity" android:exported="false" />
+        <activity android:name=".ui.screens.NoticeDetailActivity" android:exported="false" />
+        <activity android:name=".ui.screens.DeepLinkActivity" android:exported="false" />
+        <activity android:name=".ui.screens.DeepLinkPublicActivity" android:exported="false" />
+        <activity android:name=".ui.screens.QuickCommandListActivity" android:exported="false" />
+        <!-- … add the remaining activities as needed (they all just launch a Compose screen). -->
+    </application>
+</manifest>

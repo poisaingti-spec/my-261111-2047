@@ -1,0 +1,103 @@
+{
+  "language": "es",
+  "entities": {
+    "Address": [
+      "dirección",
+      "dirección de envío",
+      "dirección de entrega",
+      "domicilio"
+    ],
+    "Place": [
+      "lugar",
+      "nombre del lugar",
+      "nombre del restaurante",
+      "nombre de la tienda",
+      "nombre del hotel"
+    ],
+    "StartingLocation": [
+      "punto de partida",
+      "lugar de recogida",
+      "origen",
+      "dirección de salida"
+    ],
+    "Destination": [
+      "destino",
+      "punto de llegada",
+      "dirección de entrega",
+      "lugar de entrega"
+    ],
+    "AccountNumber": [
+      "número de cuenta",
+      "número de cliente",
+      "número de póliza"
+    ],
+    "EmailAddress": [
+      "correo electrónico",
+      "dirección de correo",
+      "email"
+    ],
+    "PassportNumber": [
+      "número de pasaporte"
+    ],
+    "DrivingLicenseNumber": [
+      "número de licencia",
+      "número de carnet de conducir"
+    ],
+    "BankAccountNumber": [
+      "número de cuenta bancaria",
+      "iban"
+    ],
+    "CardNumber": [
+      "número de tarjeta",
+      "número de tarjeta de crédito",
+      "número de tarjeta de débito"
+    ],
+    "OrderNumber": [
+      "número de pedido",
+      "número de orden",
+      "número de seguimiento",
+      "número de recibo"
+    ],
+    "PhoneNumber": [
+      "número de teléfono",
+      "número de contacto",
+      "número móvil"
+    ],
+    "UserID": [
+      "id de usuario",
+      "nombre de usuario",
+      "login"
+    ],
+    "OTP": [
+      "código otp",
+      "código de un solo uso",
+      "código de verificación"
+    ],
+    "Code": [
+      "código promocional",
+      "código de acceso",
+      "código de descuento"
+    ],
+    "Password": [
+      "contraseña",
+      "clave"
+    ],
+    "VehiclePlateNumber": [
+      "placa",
+      "matrícula",
+      "número de placa"
+    ],
+    "ReservationNumber": [
+      "número de reserva",
+      "número de confirmación",
+      "código de confirmación",
+      "vuelo",
+      "tren"
+    ],
+    "ResidentRegistrationNumber": [
+      "número de identificación",
+      "número de registro",
+      "número de seguro social"
+    ]
+  }
+}

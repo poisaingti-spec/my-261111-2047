@@ -1,0 +1,61 @@
+{
+  "perLocaleConfigs": [
+    {
+      "locale": "ko-KR",
+      "examples": [
+        "마이갤럭시",
+        "핸드폰아",
+        "열려라참깨",
+        "엘리자베스",
+        "블랙커피",
+        "김치찌개"
+      ],
+      "guideTexts": [
+        "3음절에서 5음절 사이의 구문을 사용하세요.",
+        "받침이 있는 호출어 일수록 인식률이 높습니다."
+      ],
+      "errorTextTooShort": "3음절 이상의 구문을 사용해 보세요",
+      "errorTextTooLong": "3음절에서 5음절 사이의 구문을 사용해 보세요",
+      "countryRestricted": false,
+      "supportedCountries": []
+    },
+    {
+      "locale": "en-US",
+      "examples": [
+        "Galaxy",
+        "Jarvis",
+        "Elizabeth",
+        "Luna",
+        "Einstein",
+        "Sherlock"
+      ],
+      "guideTexts": [
+        "Use a phrase between 2 and 4 syllables."
+      ],
+      "errorTextTooShort": "Try a phrase that is at least 2 syllables",
+      "errorTextTooLong": "Try a phrase that is between 2 and 4 syllables",
+      "countryRestricted": false,
+      "supportedCountries": []
+    },
+    {
+      "locale": "zh-CN",
+      "examples": [
+        "盖乐世",
+        "三星三星",
+        "芝麻开门",
+        "伊丽莎白",
+        "珍珠奶茶",
+        "豆浆油条"
+      ],
+      "guideTexts": [
+        "请使用包含 3 至 4 个字符的短语。"
+      ],
+      "errorTextTooShort": "请尝试使用至少包含 3 个字符的短语。",
+      "errorTextTooLong": "请尝试使用包含 3 至 4 个字符的短语。",
+      "countryRestricted": true,
+      "supportedCountries": [
+        "CN"
+      ]
+    }
+  ]
+}

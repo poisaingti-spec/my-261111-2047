@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">my</string>
+
+    <!-- Top‑level titles -->
+    <string name="title_home">Home</string>
+    <string name="title_quick_commands">Quick Commands</string>
+    <string name="title_my_capsules">My Capsules</string>
+    <string name="title_settings">Settings</string>
+
+    <!-- Sample UI strings from the original APK (feel free to add more) -->
+    <string name="assi_home_menu_settings">Settings</string>
+    <string name="assi_home_menu_tutorials">How to use</string>
+    <string name="assi_home_generic_error">Looks like something went wrong. Try again later</string>
+    <string name="assi_home_no_network_connection">Connect to a network and try again</string>
+    <string name="assistant_home">Assistant Home</string>
+    <string name="quick_commands_header">My commands</string>
+    <string name="my_capsules_header">My capsules</string>
+    <string name="settings_header">App Settings</string>
+</resources>

@@ -1,0 +1,90 @@
+{
+  "language": "fr",
+  "entities": {
+    "Address": [
+      "adresse",
+      "adresse de livraison",
+      "adresse d'expédition"
+    ],
+    "Place": [
+      "nom du lieu",
+      "nom du restaurant",
+      "nom du magasin",
+      "nom de l'hôtel"
+    ],
+    "StartingLocation": [
+      "point de départ",
+      "lieu de prise en charge",
+      "origine"
+    ],
+    "Destination": [
+      "destination",
+      "adresse d'arrivée",
+      "lieu de dépôt"
+    ],
+    "AccountNumber": [
+      "numéro de compte",
+      "numéro client"
+    ],
+    "EmailAddress": [
+      "adresse e-mail",
+      "adresse mail"
+    ],
+    "PassportNumber": [
+      "numéro de passeport"
+    ],
+    "DrivingLicenseNumber": [
+      "numéro de permis",
+      "numéro de permis de conduire"
+    ],
+    "BankAccountNumber": [
+      "numéro de compte bancaire",
+      "iban"
+    ],
+    "CardNumber": [
+      "numéro de carte",
+      "numéro de carte bancaire"
+    ],
+    "OrderNumber": [
+      "numéro de commande",
+      "référence commande",
+      "numéro de suivi"
+    ],
+    "PhoneNumber": [
+      "numéro de téléphone",
+      "numéro de contact"
+    ],
+    "UserID": [
+      "identifiant utilisateur",
+      "nom d'utilisateur",
+      "login"
+    ],
+    "OTP": [
+      "code otp",
+      "code à usage unique",
+      "code de vérification"
+    ],
+    "Code": [
+      "code promo",
+      "code d'accès",
+      "code de réduction"
+    ],
+    "Password": [
+      "mot de passe"
+    ],
+    "VehiclePlateNumber": [
+      "plaque d'immatriculation",
+      "numéro de plaque"
+    ],
+    "ReservationNumber": [
+      "numéro de réservation",
+      "code de confirmation",
+      "vol",
+      "train"
+    ],
+    "ResidentRegistrationNumber": [
+      "numéro de sécurité sociale",
+      "numéro d'identité"
+    ]
+  }
+}

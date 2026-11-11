@@ -1,0 +1,12 @@
+{
+    "target": "com.samsung.android.bixby.agent.apk",
+    "newAppName": "my",
+    "newPackageName": "com.crafted.my",
+    "studyMode": "Clean room (Default)",
+    "likenessTargetPercent": 99,
+    "achievedLikenessPercent": 98,
+    "autoMode": false,
+    "brandColorHex": "#7C3AED",
+    "customLogoText": "my",
+    "requestHistory": []
+}

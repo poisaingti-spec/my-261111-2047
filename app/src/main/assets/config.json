@@ -1,0 +1,53 @@
+{
+  "version": "1.2.0",
+  "trim_config": {
+    "trim": false,
+    "trim_sec": 0.2,
+    "trim_side": "both"
+  },
+  "decision": {
+    "enabled": true,
+    "scenario": "bargein",
+    "gate": -5.0,
+    "beta": 0.4,
+    "anchor_types": ["phone", "tablet"]
+  },
+  "weights": {
+    "normal": {
+      "devices": {}
+    },
+    "bargein": {
+      "devices": {
+        "phone": 1.0,
+        "tablet": 1.0
+      }
+    },
+    "acousticecho": {
+      "devices": {}
+    }
+  },
+  "mapping": {
+    "lower_bound": 4.0,
+    "dst_offset": 0.2,
+    "cap": 7.0,
+    "ceiling_anchors": {
+      "percentiles": [5, 10, 25, 50, 75, 90, 95],
+      "bargein_quants": [9.4084, 10.0138, 12.8121, 17.0752, 24.2952, 33.8268, 34.7806],
+      "baseline_quants": [4.6265, 4.6265, 5.2258, 5.5954, 6.9641, 6.9641, 6.9641]
+    },
+    "anchors": {
+      "devices": {
+        "phone": {
+          "percentiles": [5, 10, 20, 35, 55, 80, 95],
+          "bargein_quants": [5.838, 6.3767, 7.2738, 8.2747, 10.6351, 16.197, 25.8321],
+          "baseline_quants": [0.9721, 3.6497, 3.8722, 4.0851, 4.6265, 5.0832, 6.9641]
+        },
+        "tablet": {
+          "percentiles": [5, 10, 20, 35, 55, 80, 95],
+          "bargein_quants": [5.838, 6.3767, 7.2738, 8.2747, 10.6351, 16.197, 25.8321],
+          "baseline_quants": [0.9721, 3.6497, 3.8722, 4.0851, 4.6265, 5.0832, 6.9641]
+        }
+      }
+    }
+  }
+}

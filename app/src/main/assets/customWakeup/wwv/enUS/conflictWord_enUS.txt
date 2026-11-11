@@ -1,0 +1,8 @@
+Volume Up
+Volume Down
+Play Music
+Stop Music
+Next Song
+Previous Song
+Answer Call
+Reject Call
