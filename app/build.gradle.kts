@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.crafted.my"
+    namespace = "com.crafted.myapp"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.crafted.my"
+        applicationId = "com.crafted.myapp"
         minSdk = 26
         targetSdk = 35
         versionCode = 1

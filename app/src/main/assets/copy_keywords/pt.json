@@ -23,50 +23,50 @@
       "endereço de entrega"
     ],
     "AccountNumber": [
-      "número da conta",
-      "número do cliente"
+      "número de conta",
+      "número de cliente"
     ],
     "EmailAddress": [
       "endereço de e-mail",
-      "email"
+      "e-mail"
     ],
     "PassportNumber": [
-      "número do passaporte"
+      "número de passaporte"
     ],
     "DrivingLicenseNumber": [
-      "número da carteira de motorista"
+      "número de carta de condução",
+      "número de licença"
     ],
     "BankAccountNumber": [
-      "número da conta bancária",
-      "iban"
+      "número de conta bancária",
+      "IBAN"
     ],
     "CardNumber": [
-      "número do cartão",
-      "número do cartão de crédito"
+      "número de cartão",
+      "número de cartão de crédito"
     ],
     "OrderNumber": [
-      "número do pedido",
-      "número de rastreio",
-      "número da encomenda"
+      "número de pedido",
+      "número de encomenda",
+      "número de rastreamento"
     ],
     "PhoneNumber": [
       "número de telefone",
-      "número de contato",
-      "número celular"
+      "número de contacto"
     ],
     "UserID": [
-      "id de usuário",
-      "nome de usuário",
-      "login"
+      "nome de utilizador",
+      "ID de utilizador",
+      "ID de login"
     ],
     "OTP": [
-      "código otp",
-      "código único",
-      "código de verificação"
+      "código OTP",
+      "código de verificação",
+      "código de autenticação"
     ],
     "Code": [
-      "código promocional",
       "código de acesso",
+      "código de promoção",
       "código de desconto"
     ],
     "Password": [
@@ -74,20 +74,18 @@
       "palavra-passe"
     ],
     "VehiclePlateNumber": [
-      "placa do veículo",
-      "placa",
-      "número da placa"
+      "matrícula",
+      "número de matrícula"
     ],
     "ReservationNumber": [
       "número de reserva",
       "código de confirmação",
       "voo",
-      "trem"
+      "comboio"
     ],
     "ResidentRegistrationNumber": [
-      "número de registro",
       "número de identificação",
-      "cpf"
+      "número de contribuinte"
     ]
   }
 }
